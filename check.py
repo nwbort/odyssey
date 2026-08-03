@@ -15,13 +15,15 @@ Writes:
   sessions/README.md     human-readable summary
   sessions/alerts.json   which watched dates we have already announced
 
-Exposes `new_dates` (comma separated) on $GITHUB_OUTPUT when a watched date has
-sessions for the first time.
+When a watched date has sessions for the first time, exposes `new_dates` (comma
+separated) on $GITHUB_OUTPUT and runs any `--on-new` command.
 """
 
+import argparse
 import json
 import os
 import pathlib
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -86,7 +88,16 @@ def pretty_date(date):
     return datetime.strptime(date, "%Y-%m-%d").strftime("%a %-d %b %Y")
 
 
-def main():
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument(
+        "--on-new",
+        metavar="CMD",
+        help="shell command to run when a watched date is released; the alert text is "
+        "passed on stdin and as $ALERT_BODY, the dates as $NEW_DATES",
+    )
+    args = parser.parse_args(argv)
+
     cinema_id = CONFIG["cinemaId"]
     movie_id = CONFIG["movieId"]
     watch_dates = CONFIG["watchDates"]
@@ -126,9 +137,13 @@ def main():
 
     write_summary(by_date, calendar, watch_dates)
 
+    body = alert_text(new_dates, by_date)
     if new_dates:
         print(f"NEW: sessions released for {', '.join(new_dates)}")
-    emit_outputs(new_dates, by_date)
+        print(body)
+    emit_outputs(new_dates, body)
+    if new_dates and args.on_new:
+        run_hook(args.on_new, new_dates, body)
 
 
 def write_summary(by_date, calendar, watch_dates):
@@ -155,22 +170,33 @@ def write_summary(by_date, calendar, watch_dates):
     (OUT_DIR / "README.md").write_text("\n".join(lines))
 
 
-def emit_outputs(new_dates, by_date):
-    out = os.environ.get("GITHUB_OUTPUT")
-    if not out:
-        return
-    body_lines = []
+def alert_text(new_dates, by_date):
+    lines = []
     for date in new_dates:
-        body_lines.append(f"### {pretty_date(date)}")
-        body_lines.append("")
+        lines.append(f"### {pretty_date(date)}")
+        lines.append("")
         for s in by_date[date]:
             seats = s["seatsAvailable"]
             seats = f" — {seats} seats" if seats is not None else ""
-            body_lines.append(f"- [{pretty_time(s['startTime'])} {s['screen']}]({s['bookingUrl']}){seats}")
-        body_lines.append("")
+            lines.append(f"- [{pretty_time(s['startTime'])} {s['screen']}]({s['bookingUrl']}){seats}")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def emit_outputs(new_dates, body):
+    out = os.environ.get("GITHUB_OUTPUT")
+    if not out:
+        return
     with open(out, "a") as fh:
         fh.write(f"new_dates={','.join(new_dates)}\n")
-        fh.write("body<<EOF\n" + "\n".join(body_lines) + "\nEOF\n")
+        fh.write("body<<EOF\n" + body + "\nEOF\n")
+
+
+def run_hook(command, new_dates, body):
+    env = dict(os.environ, NEW_DATES=",".join(new_dates), ALERT_BODY=body)
+    result = subprocess.run(command, shell=True, input=body, text=True, env=env)
+    if result.returncode != 0:
+        print(f"--on-new command exited {result.returncode}", file=sys.stderr)
 
 
 if __name__ == "__main__":
