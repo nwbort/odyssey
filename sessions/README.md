@@ -1,6 +1,6 @@
 # The Odyssey at IMAX Sydney
 
-Last checked: 2026-08-05 12:19 UTC
+Last checked: 2026-08-05 15:31 UTC
 On sale through: **2026-09-22**
 
 ## Watching
