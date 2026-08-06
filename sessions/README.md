@@ -1,6 +1,6 @@
 # The Odyssey at IMAX Sydney
 
-Last checked: 2026-08-06 10:02 UTC
+Last checked: 2026-08-06 12:21 UTC
 On sale through: **2026-09-22**
 
 ## Watching
@@ -11,7 +11,6 @@ On sale through: **2026-09-22**
 
 | Date | Sessions |
 | --- | --- |
-| Thu 6 Aug 2026 | 9:30 PM (IMAX) |
 | Fri 7 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Sat 8 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Sun 9 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
