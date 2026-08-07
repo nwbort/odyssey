@@ -1,17 +1,17 @@
 # The Odyssey at IMAX Sydney
 
-Last checked: 2026-08-07 00:18 UTC
+Last checked: 2026-08-07 04:05 UTC
 On sale through: **2026-09-23**
 
 ## Watching
 
-- Sat 29 Aug 2026 — **4 session(s) released**
+- Sat 29 Aug 2026 — **5 session(s) released**
 
 ## All sessions
 
 | Date | Sessions |
 | --- | --- |
-| Fri 7 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
+| Fri 7 Aug 2026 | 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Sat 8 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Sun 9 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Mon 10 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
@@ -31,9 +31,9 @@ On sale through: **2026-09-23**
 | Mon 24 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX) |
 | Tue 25 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Wed 26 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX) |
-| Thu 27 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX) |
+| Thu 27 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX) |
 | Fri 28 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
-| Sat 29 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 9:30 PM (IMAX) |
+| Sat 29 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Sun 30 Aug 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Mon 31 Aug 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Tue 1 Sep 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
@@ -48,7 +48,7 @@ On sale through: **2026-09-23**
 | Thu 10 Sep 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX) |
 | Fri 11 Sep 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX) |
 | Sat 12 Sep 2026 | 6:15 AM (IMAX), 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX) |
-| Sun 13 Sep 2026 | 7:00 AM (IMAX), 10:50 AM (IMAX), 9:30 PM (IMAX) |
+| Sun 13 Sep 2026 | 7:00 AM (IMAX), 10:50 AM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Mon 14 Sep 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 5:40 PM (IMAX), 9:30 PM (IMAX) |
 | Tue 15 Sep 2026 | 10:00 AM (IMAX), 1:50 PM (IMAX), 9:30 PM (IMAX) |
 | Wed 16 Sep 2026 | 9:40 AM (IMAX), 1:30 PM (IMAX), 9:30 PM (IMAX) |
