@@ -1,17 +1,10 @@
 {
   "2026-08-16": [
     {
-      "sessionId": 15509430,
-      "startTime": "2026-08-16T14:00",
-      "screen": "IMAX",
-      "seatsAvailable": 1,
-      "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15509430"
-    },
-    {
       "sessionId": 15509221,
       "startTime": "2026-08-16T20:45",
       "screen": "IMAX",
-      "seatsAvailable": 6,
+      "seatsAvailable": 4,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15509221"
     }
   ],
@@ -156,7 +149,7 @@
       "sessionId": 15546028,
       "startTime": "2026-08-22T21:30",
       "screen": "IMAX",
-      "seatsAvailable": 45,
+      "seatsAvailable": 43,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546028"
     }
   ],
@@ -248,7 +241,7 @@
       "sessionId": 15546022,
       "startTime": "2026-08-26T10:00",
       "screen": "IMAX",
-      "seatsAvailable": 67,
+      "seatsAvailable": 66,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546022"
     },
     {
@@ -294,7 +287,7 @@
       "sessionId": 15546089,
       "startTime": "2026-08-28T10:00",
       "screen": "IMAX",
-      "seatsAvailable": 45,
+      "seatsAvailable": 43,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546089"
     },
     {
@@ -324,7 +317,7 @@
       "sessionId": 15546052,
       "startTime": "2026-08-29T06:15",
       "screen": "IMAX",
-      "seatsAvailable": 76,
+      "seatsAvailable": 75,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546052"
     },
     {
@@ -488,7 +481,7 @@
       "sessionId": 15546059,
       "startTime": "2026-09-03T13:50",
       "screen": "IMAX",
-      "seatsAvailable": 104,
+      "seatsAvailable": 102,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546059"
     },
     {
@@ -511,7 +504,7 @@
       "sessionId": 15546061,
       "startTime": "2026-09-04T10:00",
       "screen": "IMAX",
-      "seatsAvailable": 107,
+      "seatsAvailable": 105,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546061"
     },
     {
@@ -532,7 +525,7 @@
       "sessionId": 15546064,
       "startTime": "2026-09-04T21:30",
       "screen": "IMAX",
-      "seatsAvailable": 62,
+      "seatsAvailable": 61,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546064"
     }
   ],
@@ -585,7 +578,7 @@
       "sessionId": 15546033,
       "startTime": "2026-09-06T13:50",
       "screen": "IMAX",
-      "seatsAvailable": 52,
+      "seatsAvailable": 54,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546033"
     },
     {
@@ -608,7 +601,7 @@
       "sessionId": 15546055,
       "startTime": "2026-09-07T10:00",
       "screen": "IMAX",
-      "seatsAvailable": 120,
+      "seatsAvailable": 118,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546055"
     },
     {
@@ -716,7 +709,7 @@
       "sessionId": 15546086,
       "startTime": "2026-09-12T06:15",
       "screen": "IMAX",
-      "seatsAvailable": 88,
+      "seatsAvailable": 87,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546086"
     },
     {
@@ -737,7 +730,7 @@
       "sessionId": 15546042,
       "startTime": "2026-09-12T17:40",
       "screen": "IMAX",
-      "seatsAvailable": 63,
+      "seatsAvailable": 61,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546042"
     }
   ],
@@ -813,7 +806,7 @@
       "sessionId": 15546081,
       "startTime": "2026-09-15T13:50",
       "screen": "IMAX",
-      "seatsAvailable": 83,
+      "seatsAvailable": 82,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546081"
     },
     {
@@ -829,7 +822,7 @@
       "sessionId": 15546084,
       "startTime": "2026-09-16T09:40",
       "screen": "IMAX",
-      "seatsAvailable": 146,
+      "seatsAvailable": 144,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546084"
     },
     {
