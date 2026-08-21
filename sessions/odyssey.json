@@ -1,17 +1,10 @@
 {
   "2026-08-22": [
     {
-      "sessionId": 15546031,
-      "startTime": "2026-08-22T06:15",
-      "screen": "IMAX",
-      "seatsAvailable": 48,
-      "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546031"
-    },
-    {
       "sessionId": 15546023,
       "startTime": "2026-08-22T10:00",
       "screen": "IMAX",
-      "seatsAvailable": 21,
+      "seatsAvailable": 19,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546023"
     },
     {
@@ -32,7 +25,7 @@
       "sessionId": 15546028,
       "startTime": "2026-08-22T21:30",
       "screen": "IMAX",
-      "seatsAvailable": 20,
+      "seatsAvailable": 19,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546028"
     }
   ],
