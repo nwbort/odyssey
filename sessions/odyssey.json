@@ -168,7 +168,7 @@
       "sessionId": 15546045,
       "startTime": "2026-08-30T21:30",
       "screen": "IMAX",
-      "seatsAvailable": 61,
+      "seatsAvailable": 60,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15546045"
     }
   ],
@@ -631,7 +631,7 @@
       "sessionId": 15558624,
       "startTime": "2026-09-17T11:00",
       "screen": "IMAX",
-      "seatsAvailable": 66,
+      "seatsAvailable": 64,
       "bookingUrl": "https://www.eventcinemas.com.au/orders/tickets#sessionId=15558624"
     },
     {
